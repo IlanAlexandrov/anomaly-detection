@@ -1,0 +1,20 @@
+# Ignore Python cache and model files
+python-app/__pycache__/
+python-app/*.pkl
+python-app/*.log
+.vs/
+
+# Ignore Visual Studio temporary files
+Anomely/Anomely/Anomely/.vs/
+Anomely/Anomely/Anomely/.idea/
+Anomely/Anomely/Anomely/*.suo
+Anomely/Anomely/Anomely/*.user
+Anomely/Anomely/Anomely/*.log
+
+# Ignore Java build files (Spring Boot project)
+spring-boot-app/target/
+spring-boot-app/*.log
+
+# System files
+.DS_Store
+Thumbs.db
